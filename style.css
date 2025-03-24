@@ -825,29 +825,7 @@ html, body {
       margin-bottom: 1.25rem;
       color: var(--clr-grey-5);
     }
-    @media screen and (min-width: 800px) {
-      h1 {
-        font-size: 4rem;
-      }
-      h2 {
-        font-size: 2.5rem;
-      }
-      h3 {
-        font-size: 1.75rem;
-      }
-      h4 {
-        font-size: 1rem;
-      }
-      body {
-        font-size: 1rem;
-      }
-      h1,
-      h2,
-      h3,
-      h4 {
-        line-height: 1;
-      }
-    }
+    
     /*  global classes */
     
     /* section */
@@ -860,11 +838,7 @@ html, body {
       margin: 0 auto;
       max-width: 100vw;
     }
-    @media screen and (min-width: 992px) {
-      .section-center {
-        width: 95vw;
-      }
-    }
+   
     main {
       min-height: 100vh;
       display: grid;
@@ -929,46 +903,6 @@ html, body {
     .show-links {
       height: 10rem;
     }
-    @media screen and (min-width: 800px) {
-      .nav-center {
-        width: 100vw;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 3rem 0 3rem;
-      }
-      .nav-header {
-        padding: 0;
-      }
-      .nav-toggle {
-        display: none;
-      }
-      
-      .links {
-        height: auto;
-        display: flex;
-      }
-      .links a {
-        padding: 0;
-        margin: 0 0.5rem;
-      }
-      .links a:hover {
-        padding: 0;
-        background: transparent;
-      }
-      .social-icons {
-        display: flex;
-      }
-      .social-icons a {
-        margin: 0 0.5rem;
-        color: var(--clr-primary-5);
-        transition: var(--transition);
-      }
-      .social-icons a:hover {
-        color: var(--clr-primary-7);
-      }
-    }
     
     .service-sec{
       width: 100vw;
@@ -1004,11 +938,7 @@ html, body {
       width: 100vw;
       margin: 0 auto;
     }
-    @media screen and (min-width: 992px) {
-      .section-center {
-        width: 100vw;
-      }
-    }
+    
     main {
       min-height: 100vh;
       display: grid;
